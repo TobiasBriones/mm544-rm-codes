@@ -45,11 +45,31 @@
   export default {
     name: 'Nav',
     methods: {
-      onNavAntecedent() {},
-      onNavGeneralConstruction() {},
-      onNavRecursiveDef() {},
-      onNavUVConstruction() {},
-      onNavDimension() {},
+      onNavAntecedent() {
+        this.$router.push({
+          path: '/antecedents',
+        });
+      },
+      onNavGeneralConstruction() {
+        this.$router.push({
+          path: '/general-construction',
+        });
+      },
+      onNavRecursiveDef() {
+        this.$router.push({
+          path: '/recursive-def',
+        });
+      },
+      onNavUVConstruction() {
+        this.$router.push({
+          path: '/uv-construction',
+        });
+      },
+      onNavDimension() {
+        this.$router.push({
+          path: '/dimension',
+        });
+      },
     },
   };
 </script>
