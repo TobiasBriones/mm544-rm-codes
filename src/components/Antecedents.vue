@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ p1 }}</p>
+    <vue-mathjax :formula="p1"></vue-mathjax>
   </div>
 </template>
 
