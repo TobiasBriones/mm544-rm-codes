@@ -7,18 +7,28 @@
 
       <md-app-drawer md-permanent="clipped">
         <md-list>
-          <md-list-item v-on:click="onNavAntecedent">
+          <md-list-item v-on:click="onNavPresent">
             <md-icon>link</md-icon>
+            <span class="md-list-item-text">Presentaciones</span>
+          </md-list-item>
+
+          <md-list-item v-on:click="onNavExamples">
+            <md-icon>link</md-icon>
+            <span class="md-list-item-text">Ejemplos</span>
+          </md-list-item>
+
+          <md-list-item v-on:click="onNavAntecedent">
+            <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Antecedentes</span>
           </md-list-item>
 
           <md-list-item v-on:click="onNavGeneralConstruction">
-            <md-icon>link</md-icon>
+            <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Construcción general</span>
           </md-list-item>
 
           <md-list-item v-on:click="onNavRecursiveDef">
-            <md-icon>link</md-icon>
+            <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Definición recursiva</span>
           </md-list-item>
 
@@ -45,6 +55,16 @@
   export default {
     name: 'Nav',
     methods: {
+      onNavPresent() {
+        this.$router.push({
+          path: '/present',
+        });
+      },
+      onNavExamples() {
+        this.$router.push({
+          path: '/examples',
+        });
+      },
       onNavAntecedent() {
         this.$router.push({
           path: '/antecedents',

@@ -10,6 +10,16 @@ const routes = [
     component: () => import('../components/Home.vue'),
   },
   {
+    path: '/present',
+    name: 'Present',
+    component: () => import('../components/Present.vue'),
+  },
+  {
+    path: '/examples',
+    name: 'Examples',
+    component: () => import('../components/Examples.vue'),
+  },
+  {
     path: '/antecedents',
     name: 'Antecedents',
     component: () => import('../components/Antecedents.vue'),
