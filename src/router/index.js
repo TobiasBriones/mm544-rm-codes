@@ -48,6 +48,11 @@ const routes = [
     path: '/recursive-def',
     name: 'RecursiveDef',
     component: () => import('../components/RecursiveDef.vue'),
+  },
+  {
+    path: '/uv-construction',
+    name: 'UvConstruction',
+    component: () => import('../components/UvConstruction.vue'),
   }
 ];
 
