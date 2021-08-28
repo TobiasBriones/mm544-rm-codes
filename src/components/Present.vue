@@ -43,10 +43,14 @@
       <p>
         <strong>Presentación de código dual</strong>
       </p>
-      <a
-        href="https://drive.google.com/file/d/16yyOt31iq7PaRy8cftpMSZkhi5-nf1h1/view?usp=sharing"
-        >Reed-Muller-Dual.pdf</a
-      >
+      <a href="./reed-muller-dual.pdf">reed-muller-dual.pdf</a>
+    </div>
+
+    <div>
+      <p>
+        <strong>Presentación de Dimensión</strong>
+      </p>
+      <a href="./reed-muller-dim.pdf">reed-muller-dim.pdf</a>
     </div>
   </div>
 </template>
