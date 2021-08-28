@@ -28,6 +28,11 @@ const routes = [
     path: '/general-construction',
     name: 'GenCons',
     component: () => import('../components/GeneralConstruction.vue'),
+  },
+  {
+    path: '/recursive-def',
+    name: 'RecursiveDef',
+    component: () => import('../components/RecursiveDef.vue'),
   }
 ];
 
