@@ -53,6 +53,11 @@ const routes = [
     path: '/uv-construction',
     name: 'UvConstruction',
     component: () => import('../components/UvConstruction.vue'),
+  },
+  {
+    path: '/dimension',
+    name: 'Dim',
+    component: () => import('../components/Dim.vue'),
   }
 ];
 
