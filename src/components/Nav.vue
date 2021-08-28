@@ -108,15 +108,3 @@
     },
   };
 </script>
-
-<style scoped>
-  .md-app {
-    min-height: 350px;
-    border: 1px solid rgba(#000, 0.12);
-  }
-
-  .md-list-item {
-    transition: all 200ms;
-    cursor: pointer;
-  }
-</style>

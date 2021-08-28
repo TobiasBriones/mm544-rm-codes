@@ -28,5 +28,3 @@
     name: 'Examples',
   };
 </script>
-
-<style scoped></style>
