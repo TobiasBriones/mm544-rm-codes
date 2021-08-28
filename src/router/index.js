@@ -24,6 +24,11 @@ const routes = [
     name: 'Antecedents',
     component: () => import('../components/Antecedents.vue'),
   },
+  {
+    path: '/general-construction',
+    name: 'GenCons',
+    component: () => import('../components/GeneralConstruction.vue'),
+  }
 ];
 
 const router = new VueRouter({
