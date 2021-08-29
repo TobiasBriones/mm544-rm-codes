@@ -73,10 +73,10 @@
     data() {
       return {
         p1: `
-        Sean  $P = \\{ \textbf{p}_1, ... ,\\textbf{p}_n | n \\in \\mathbb{N}
+        Sean  $P = \\{ \\textbf{p}_1, ... ,\\textbf{p}_n | n \\in \\mathbb{N}
          \\}$ un subconjunto finito de un objeto geométrico $X$ y $V$ un
          $\\mathscr{F}_q$-espacio vectorial de aplicaciones $f:X \\to \\mathscr{F}_q$.
-         Se llama \\textbf{evaluación} en $P$ de las aplicaciones de $V$ a la
+         Se llama evaluación en $P$ de las aplicaciones de $V$ a la
          aplicación:
 
         $$
