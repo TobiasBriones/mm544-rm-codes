@@ -71,6 +71,9 @@
     name: 'Nav',
     methods: {
       onNavItemClick(path) {
+        if (this.$route.path === path) {
+          return;
+        }
         this.$router.push({ path });
       }
     }
