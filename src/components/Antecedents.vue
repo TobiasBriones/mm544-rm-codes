@@ -312,13 +312,13 @@
         $$
         `,
         p23: `
-        El \\textbf{código dual} $C^\\perp$ de un código lineal $C \\subseteq F_q^n$ de dimensión $s$ se define como:
+        El código dual $C^\\perp$ de un código lineal $C \\subseteq F_q^n$ de dimensión $s$ se define como:
         $$
         C^\\perp = \\{ \\textbf{x} \\in \\mathbb{F_q^n} | <\\textbf{x}, \\textbf{c}>=0, \\forall \\textbf{c} \\in C
         $$
         `,
         p24: `
-        La \\textbf{matriz de control} del código lineal $C$ es la matriz generadora de $C^\\perp$ dada como $H \\in \\mathbb{M}_{(m-s)xn}(\\mathbb{F_q})$ tal que
+        La $\\textbf{matriz de control}$ del código lineal $C$ es la matriz generadora de $C^\\perp$ dada como $H \\in \\mathbb{M}_{(m-s)xn}(\\mathbb{F_q})$ tal que
     
         $$
         C = \\{ \\textbf{x} \\in \\mathbb{F_q^n} | \\textbf{x}H^T = \\textbf{0} \\}

@@ -15,7 +15,7 @@
 
 <template>
   <div>
-    <p><strong>construcción (u, u +v)</strong></p>
+    <p><strong>Construcción (u, u +v)</strong></p>
     <p>
       <vue-mathjax :formula="p1"></vue-mathjax>
     </p>

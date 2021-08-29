@@ -142,8 +142,8 @@
         `,
         p9: `
         Sean $p \\in \\mathbb{N}$ primo y $q = p^s$. Sean $m$, $r$ $\\in \\mathbb{N}$
-         tales que $r \\leq m(q-1)$. Un \\textbf{código de Reed-Muller q-ario
-         $\\mathscr{RM}_q (r,m)$} de orden $r$ y longitud $q^m$ a la imagen directa
+         tales que $r \\leq m(q-1)$. Un código de Reed-Muller $q-ario$
+         $\\mathscr{RM}_q (r,m)$ de orden $r$ y longitud $q^m$ a la imagen directa
          de $\\mathscr{P}_m^p (r)$ a través de la aplicación - Definición
          -Aplicación evaluación Isomorfismo- -. Además, se define $\\mathscr{RM}_q
          (l,m)= \\{0 ... 0\\}, \\forall l < 0$.
