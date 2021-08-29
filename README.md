@@ -33,6 +33,15 @@ npm run build
 
 Checkout [vue.config.js](./vue.config.js) if needed.
 
+## Screenshots
+
+![Screenshot 1](./docs/screenshot-1.png)
+
+![Screenshot 2](./docs/screenshot-2.png)
+
+![Screenshot 3](./docs/screenshot-3.png)
+
+
 ## Contact
 
 This project: [Website](https://tobiasbriones.github.io/cp-unah-mm544-reed-muller-codes),
