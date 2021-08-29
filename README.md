@@ -1,24 +1,45 @@
-# web
+# Course Project at UNAH-MM544: Reed Muller Codes
 
-## Project setup
+Website containing information and resources about Reed-Muller Codes.
+
+## Instructions
+
+Make a paper about your topic and take your information in LaTeX format to a website along with
+other resources provided by you like videos, proofs, or code examples.
+
+## Getting started
+
+Project setup:
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Run on development mode:
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+Build for production:
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## About
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Course Project at UNAH-MM544: Reed Muller Codes**
+
+Website containing information and resources about Reed-Muller Codes.
+
+Copyright © 2021 Tobias Briones. All rights reserved.
+
+### License
+
+This project is licensed under the [BSD 3-Clause LICENSE](LICENSE).
+
+---
+
+- This project contains theoretical content from other sources. See
+  the [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) file for more details.
