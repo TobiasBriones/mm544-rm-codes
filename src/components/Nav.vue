@@ -77,7 +77,9 @@
       </md-app-drawer>
 
       <md-app-content>
-        <router-view></router-view>
+        <div class="content">
+          <router-view></router-view>
+        </div>
       </md-app-content>
     </md-app>
   </div>
@@ -98,9 +100,19 @@
 </script>
 
 <style scoped>
+  .content {
+    padding: 16px 5%;
+  }
+
   .sep {
     width: 100%;
     height: 1px;
     background-color: #757575;
+  }
+
+  @media (min-width: 1360px) {
+    .content {
+      padding: 32px 15%;
+    }
   }
 </style>
