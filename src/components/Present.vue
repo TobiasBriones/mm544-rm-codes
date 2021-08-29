@@ -53,6 +53,13 @@
 
     <div>
       <p>
+        <strong>Paper completo</strong>
+      </p>
+      <a href="./códigos-de-reed-muller.pdf">códigos-de-reed-muller.pdf</a>
+    </div>
+
+    <div>
+      <p>
         <strong>Presentación de código dual</strong>
       </p>
       <a href="./reed-muller-dual.pdf">reed-muller-dual.pdf</a>
