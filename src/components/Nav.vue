@@ -22,6 +22,11 @@
 
       <md-app-drawer md-permanent="clipped">
         <md-list>
+          <md-list-item v-on:click="onNavItemClick('/')">
+            <md-icon>navigate_next</md-icon>
+            <span class="md-list-item-text">Inicio</span>
+          </md-list-item>
+
           <md-list-item v-on:click="onNavItemClick('/present')">
             <md-icon>link</md-icon>
             <span class="md-list-item-text">Presentaciones</span>

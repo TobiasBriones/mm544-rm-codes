@@ -16,9 +16,16 @@
 <template>
   <div>
     <p>
-      Bienvenido a esta aplicación web. Utilizando la navegación puedes obtener
+      Bienvenido a esta página web. Utilizando la navegación puedes obtener
       contenido y recursos sobre teoría de códigos aplicados a los códigos de
       Reed-Muller.
+    </p>
+
+    <p>
+      Más sobre este proyecto:
+      <a href="https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes">
+        CP: Códigos de Reed Muller Repositorio de GitHub
+      </a>
     </p>
   </div>
 </template>
