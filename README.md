@@ -1,5 +1,9 @@
 # Course Project at UNAH-MM544: Reed Muller Codes
 
+[![GitHub Repository](https://raw.githubusercontent.com/tobiasbriones/general-images/main/example-projects/badges/ep-gh-repo-badge.svg)](https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes)
+
+[![Project GitHub License](https://img.shields.io/github/license/tobiasbriones/cp-unah-mm544-reed-muller-codes.svg?style=flat-square)](https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes/blob/main/LICENSE)
+
 Website containing information and resources about Reed-Muller Codes.
 
 ## Instructions
