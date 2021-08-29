@@ -15,6 +15,13 @@
 
 <template>
   <div>
+    <h2><strong>Bono</strong></h2>
+
+    <p>
+      El contenido bono consiste en los proyectos: <strong>MST: Minimum Spanning Tree</strong>,
+      <strong>Criptosistemas</strong> y <strong>Hill Cipher para Z26</strong>.
+    </p>
+
     <section>
       <h2>
         MST: Minimum Spanning Tree
