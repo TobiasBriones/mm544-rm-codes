@@ -63,6 +63,11 @@ const routes = [
     path: '/bib',
     name: 'Bibliography',
     component: () => import('../components/Bibliography.vue'),
+  },
+  {
+    path: '/bonus',
+    name: 'Bonus',
+    component: () => import('../components/Bonus.vue'),
   }
 ];
 

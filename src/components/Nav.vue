@@ -61,6 +61,13 @@
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Bibliografía</span>
           </md-list-item>
+
+          <div class="sep"></div>
+
+          <md-list-item v-on:click="onNavItemClick('/bonus')">
+            <md-icon>link</md-icon>
+            <span class="md-list-item-text">Bono</span>
+          </md-list-item>
         </md-list>
       </md-app-drawer>
 
@@ -84,3 +91,11 @@
     }
   };
 </script>
+
+<style scoped>
+  .sep {
+    width: 100%;
+    height: 1px;
+    background-color: #757575;
+  }
+</style>
