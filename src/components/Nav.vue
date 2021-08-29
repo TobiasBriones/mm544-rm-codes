@@ -15,12 +15,19 @@
 
 <template>
   <div class="page-container">
-    <md-app>
+    <md-app md-mode="reveal">
       <md-app-toolbar class="md-primary">
+        <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
+          <md-icon>menu</md-icon>
+        </md-button>
         <span class="md-title">Códigos de Reed-Muller</span>
       </md-app-toolbar>
 
-      <md-app-drawer md-permanent="clipped">
+      <md-app-drawer md-permanent="clipped" :md-active.sync="menuVisible">
+        <md-toolbar class="md-transparent" md-elevation="0">
+          Navegación
+        </md-toolbar>
+
         <md-list>
           <md-list-item v-on:click="onNavItemClick('/')">
             <md-icon>navigate_next</md-icon>
@@ -74,6 +81,8 @@
             <span class="md-list-item-text">Bono</span>
           </md-list-item>
         </md-list>
+
+        <Footer></Footer>
       </md-app-drawer>
 
       <md-app-content>
@@ -86,20 +95,37 @@
 </template>
 
 <script>
+  import Footer from './Footer.vue';
+
   export default {
     name: 'Nav',
+    components: {
+      Footer
+    },
+    data: () => ({
+      menuVisible: false
+    }),
     methods: {
       onNavItemClick(path) {
         if (this.$route.path === path) {
           return;
         }
         this.$router.push({ path });
+        this.menuVisible = false;
       }
     }
   };
 </script>
 
 <style scoped>
+  .md-app-drawer {
+    max-height: 960px;
+  }
+
+  .md-app-drawer > footer {
+    margin-top: 64px;
+  }
+
   .content {
     padding: 16px 5%;
   }
@@ -111,6 +137,10 @@
   }
 
   @media (min-width: 1360px) {
+    .md-app-drawer {
+      max-height: 1080px;
+    }
+
     .content {
       padding: 32px 15%;
     }
