@@ -31,6 +31,8 @@ Build for production:
 npm run build
 ```
 
+Checkout [vue.config.js](./vue.config.js) if needed.
+
 ## About
 
 **Course Project at UNAH-MM544: Reed Muller Codes**
