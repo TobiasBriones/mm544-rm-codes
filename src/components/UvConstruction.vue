@@ -28,11 +28,6 @@
     <p>
       <vue-mathjax :formula="p3"></vue-mathjax>
     </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p4"></vue-mathjax>
-    </p>
   </div>
 </template>
 
@@ -74,13 +69,7 @@
         Si $x \\in C_1$ tiene $wt d_1$ y $y \\in C_2$ tiene $wt d_2$, entonces $(x,x)
          \\in C$ tiene $2d_1$ y $(0, y) \\in C$ tiene  $wt d_2$ así que $d \\leq
          min(2d_1, d_2)$. Por tanto, $d = min(2d_1, d_2)$.
-        `,
-        p4: `
-
-        `,
-        p5: `
-
-        `,
+        `
       };
     },
   };
