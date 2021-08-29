@@ -74,9 +74,7 @@
             <span class="md-list-item-text">Bibliografía</span>
           </md-list-item>
 
-          <div class="sep"></div>
-
-          <md-list-item v-on:click="onNavItemClick('/bonus')">
+          <md-list-item class="sep" v-on:click="onNavItemClick('/bonus')">
             <md-icon>link</md-icon>
             <span class="md-list-item-text">Bono</span>
           </md-list-item>
@@ -130,9 +128,13 @@
     padding: 16px 5%;
   }
 
-  .sep {
+  .sep::before {
+    content: '';
+    position: absolute;
     width: 100%;
     height: 1px;
+    left: 0;
+    top: 0;
     background-color: #757575;
   }
 
