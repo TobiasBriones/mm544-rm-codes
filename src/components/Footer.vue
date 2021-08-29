@@ -14,21 +14,27 @@
   -->
 
 <template>
-  <div id="app">
-    <Nav />
-    <Footer></Footer>
-  </div>
+  <footer>
+    <p>
+      <strong>
+        Course Project: Reed Muller Codes
+      </strong>
+    </p>
+    Copyright © 2021 Tobias Briones. All rights reserved.
+  </footer>
 </template>
 
 <script>
-  import Nav from './components/Nav.vue';
-  import Footer from './components/Footer.vue';
-
   export default {
-    name: 'App',
-    components: {
-      Nav,
-      Footer
-    },
+    name: 'Footer',
   };
 </script>
+
+<style scoped>
+  footer {
+    padding: 32px 48px;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+</style>
