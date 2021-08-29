@@ -136,7 +136,7 @@
       return {
         p1: `
         En el momento en el que un transmisor emite un mensaje mediante el medio
-         hacia un receptor, a causa del medio (aire o cable) por el que se 
+         hacia un receptor, a causa del medio --aire o cable-- por el que se
          transmiten los paquetes el receptor puede recibir y recibirá más de 
          alguna vez mensajes no íntegros distintos a los emitidos originalmente
           por el transmisor. En esta etapa entra en acción la teoría de códigos 
@@ -159,9 +159,9 @@
         `,
 
         p3: `
-         La misión de la nave espacial Mariner tomó fotografías (sin color) de
+         La misión de la nave espacial Mariner tomó fotografías --sin color-- de
           Marte con éxito en 1965. Las imágenes eran de $200x200$ y a cada píxel
-           se le asignaba uno de los $64$ niveles de brillo (seis bits). Dado 
+           se le asignaba uno de los $64$ niveles de brillo --seis bits--. Dado
            que los datos se transmitieron a aproximadamente 8 bits por segundo 
            (!), La transmisión de una sola imagen tomó aproximadamente $8$ horas.
             Cuando el Mariner 9 entró en órbita alrededor de Marte en 1972, se 
@@ -276,7 +276,7 @@
           que se computarán por ejemplo, cuando se trabaje con $\\mathbb{F}_2^n$.
         `,
         p17: `
-        Sea $\\alpha \\in GF(q^m)$. El \\textbf{polinomio mínimo} de $\\alpha$ con 
+        Sea $\\alpha \\in GF(q^m)$. El polinomio mínimo de $\\alpha$ con
         respecto al subcampo $GF(q)$ es el polinomio mónico  $p(x) \\in GF(q)[x]$
          de grado mínimo tal que $p(\\alpha) = 0$.
         `,
@@ -293,7 +293,7 @@
           mínimo. Por tanto se ha probado la proposición requerida.
         `,
         p20: `
-        Un \\textbf{código lineal C} de longitud $n$ y dimensión $s$ sobre $\\mathbb{F_q}$
+        Un código lineal C de longitud $n$ y dimensión $s$ sobre $\\mathbb{F_q}$
          es un $F_q$-subespacio vectorial de $\\mathbb{F_q^n}$ de dimensión $s \\leq n$.
         `,
         p21: `
