@@ -15,7 +15,8 @@
 
 <template>
   <div>
-    <p><strong>Definición recursiva</strong></p>
+    <p><strong>Definición Recursiva</strong></p>
+
     <p>
       <vue-mathjax :formula="p1"></vue-mathjax>
     </p>

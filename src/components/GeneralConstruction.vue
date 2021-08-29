@@ -15,6 +15,8 @@
 
 <template>
   <div>
+    <p><strong>Construcción General</strong></p>
+
     <p>
       Los códigos de Reed-Muller son un conjunto infinito de códigos y además
       forman parte de los códigos de evaluación. A continuación se da una

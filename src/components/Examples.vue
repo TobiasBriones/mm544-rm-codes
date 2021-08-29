@@ -15,6 +15,8 @@
 
 <template>
   <div>
+    <p><strong>Ejemplos</strong></p>
+
     <div>
       Este es un repositorio que encontré que tiene funciones para la generación, codificación y
       decodificación de códigos de Reed Muller en MATLAB:
