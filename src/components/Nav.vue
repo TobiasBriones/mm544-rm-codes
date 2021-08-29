@@ -56,6 +56,11 @@
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Dimensión</span>
           </md-list-item>
+
+          <md-list-item v-on:click="onNavItemClick('/bib')">
+            <md-icon>navigate_next</md-icon>
+            <span class="md-list-item-text">Bibliografía</span>
+          </md-list-item>
         </md-list>
       </md-app-drawer>
 

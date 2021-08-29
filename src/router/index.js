@@ -58,6 +58,11 @@ const routes = [
     path: '/dimension',
     name: 'Dim',
     component: () => import('../components/Dim.vue'),
+  },
+  {
+    path: '/bib',
+    name: 'Bibliography',
+    component: () => import('../components/Bibliography.vue'),
   }
 ];
 
