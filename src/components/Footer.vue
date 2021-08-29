@@ -32,9 +32,18 @@
 
 <style scoped>
   footer {
-    padding: 32px 48px;
+    padding: 16px 24px 32px 16px;
     text-align: center;
     background-color: #F0F0F0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  @media (min-width: 800px) {
+    footer {
+      padding: 24px 48px;
+      text-align: center;
+      background-color: #F0F0F0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
   }
 </style>
