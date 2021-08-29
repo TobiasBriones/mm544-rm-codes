@@ -39,6 +39,26 @@
 
     <section>
       <h2>
+        Criptosistemas
+      </h2>
+
+      <p>
+        En este proyecto, implementé varios algoritmos clásicos de criptosistemas
+        tales como los famosos: Shift, Substitution, Affine, Vigenere.
+      </p>
+
+      <p>
+        Recomiendo revisar el siguiente texto para estudiar estos contenidos:
+        <strong>
+          Introduction to Cryptography With Coding Theory by Wade Trappe Lawrence C Washington
+        </strong>
+      </p>
+
+      <a href="https://github.com/tobiasbriones/ep-cryptosystems">EP: Cryptosystems Repositorio de GitHub</a>
+    </section>
+
+    <section>
+      <h2>
         Hill Cipher for Z26
       </h2>
 
