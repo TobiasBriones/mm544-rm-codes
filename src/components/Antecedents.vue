@@ -15,7 +15,7 @@
 
 <template>
   <div>
-    <p><strong>Antecedentes</strong></p>
+    <h2><strong>Antecedentes</strong></h2>
 
     <p>
       <vue-mathjax :formula="p1"></vue-mathjax>

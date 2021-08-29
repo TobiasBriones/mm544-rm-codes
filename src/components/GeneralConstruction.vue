@@ -15,7 +15,7 @@
 
 <template>
   <div>
-    <p><strong>Construcción General</strong></p>
+    <h2><strong>Construcción General</strong></h2>
 
     <p>
       Los códigos de Reed-Muller son un conjunto infinito de códigos y además

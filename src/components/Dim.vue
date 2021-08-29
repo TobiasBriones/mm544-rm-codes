@@ -15,7 +15,8 @@
 
 <template>
   <div>
-    <p><strong>Dimensión</strong></p>
+    <h2><strong>Dimensión</strong></h2>
+
     <p>
       <vue-mathjax :formula="p1"></vue-mathjax>
     </p>

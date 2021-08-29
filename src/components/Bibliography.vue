@@ -15,11 +15,11 @@
 
 <template>
   <div>
-    <p>
+    <h2>
       <strong>
       Bibliografía
       </strong>
-    </p>
+    </h2>
 
     <ul>
       <li>

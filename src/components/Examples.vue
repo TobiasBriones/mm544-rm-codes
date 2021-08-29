@@ -15,7 +15,7 @@
 
 <template>
   <div>
-    <p><strong>Ejemplos</strong></p>
+    <h2><strong>Ejemplos</strong></h2>
 
     <div>
       Este es un repositorio que encontré que tiene funciones para la generación, codificación y
