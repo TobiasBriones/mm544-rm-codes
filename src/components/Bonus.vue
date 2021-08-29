@@ -36,6 +36,21 @@
         </iframe>
       </div>
     </section>
+
+    <section>
+      <h2>
+        Hill Cipher for Z26
+      </h2>
+
+      <p>
+        En este proyecto, escribí un programa para calcular un cifrado de Hill
+        (Hill Cipher) con sus funciones de encriptación/desencriptación utilizando una
+        implementación de matrices en el campo de los números enteros módulo 26
+        (Z26).
+      </p>
+
+      <a href="https://github.com/tobiasbriones/ep-hill-cipher-mat26">EP: Hill Cipher Mat26 Repositorio de GitHub</a>
+    </section>
   </div>
 </template>
 
