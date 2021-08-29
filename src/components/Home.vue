@@ -35,15 +35,28 @@
 
 <script>
   export default {
-    name: 'Home',
+    name: 'Home'
   };
 </script>
 
 <style scoped>
   .card {
     padding: 32px;
-    margin-top: 128px;
+    margin-top: 16px;
     border-radius: 8px;
     background-color: #B3E5FC;
+  }
+
+  @media (min-width: 600px) {
+    .card {
+      margin-top: 64px;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .card {
+      padding: 32px 64px;
+      margin-top: 108px;
+    }
   }
 </style>
