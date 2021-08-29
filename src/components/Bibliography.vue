@@ -100,4 +100,8 @@
   li {
     margin: 16px 0;
   }
+
+  a {
+    overflow-wrap: break-word;
+  }
 </style>
