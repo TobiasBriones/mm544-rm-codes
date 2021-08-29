@@ -33,6 +33,13 @@ npm run build
 
 Checkout [vue.config.js](./vue.config.js) if needed.
 
+## Contact
+
+This project: [Website](https://tobiasbriones.github.io/cp-unah-mm544-reed-muller-codes),
+[Repository](https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes)
+
+Tobias Briones: [GitHub](https://github.com/tobiasbriones)
+
 ## About
 
 **Course Project at UNAH-MM544: Reed Muller Codes**
