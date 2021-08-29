@@ -22,37 +22,37 @@
 
       <md-app-drawer md-permanent="clipped">
         <md-list>
-          <md-list-item v-on:click="onNavPresent">
+          <md-list-item v-on:click="onNavItemClick('/present')">
             <md-icon>link</md-icon>
             <span class="md-list-item-text">Presentaciones</span>
           </md-list-item>
 
-          <md-list-item v-on:click="onNavExamples">
+          <md-list-item v-on:click="onNavItemClick('/examples')">
             <md-icon>link</md-icon>
             <span class="md-list-item-text">Ejemplos</span>
           </md-list-item>
 
-          <md-list-item v-on:click="onNavAntecedent">
+          <md-list-item v-on:click="onNavItemClick('/antecedents')">
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Antecedentes</span>
           </md-list-item>
 
-          <md-list-item v-on:click="onNavGeneralConstruction">
+          <md-list-item v-on:click="onNavItemClick('/general-construction')">
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Construcción general</span>
           </md-list-item>
 
-          <md-list-item v-on:click="onNavRecursiveDef">
+          <md-list-item v-on:click="onNavItemClick('/recursive-def')">
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Definición recursiva</span>
           </md-list-item>
 
-          <md-list-item v-on:click="onNavUVConstruction">
+          <md-list-item v-on:click="onNavItemClick('/uv-construction')">
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Construcción (u, u+v)</span>
           </md-list-item>
 
-          <md-list-item v-on:click="onNavDimension">
+          <md-list-item v-on:click="onNavItemClick('/dimension')">
             <md-icon>navigate_next</md-icon>
             <span class="md-list-item-text">Dimensión</span>
           </md-list-item>
@@ -70,41 +70,9 @@
   export default {
     name: 'Nav',
     methods: {
-      onNavPresent() {
-        this.$router.push({
-          path: '/present',
-        });
-      },
-      onNavExamples() {
-        this.$router.push({
-          path: '/examples',
-        });
-      },
-      onNavAntecedent() {
-        this.$router.push({
-          path: '/antecedents',
-        });
-      },
-      onNavGeneralConstruction() {
-        this.$router.push({
-          path: '/general-construction',
-        });
-      },
-      onNavRecursiveDef() {
-        this.$router.push({
-          path: '/recursive-def',
-        });
-      },
-      onNavUVConstruction() {
-        this.$router.push({
-          path: '/uv-construction',
-        });
-      },
-      onNavDimension() {
-        this.$router.push({
-          path: '/dimension',
-        });
-      },
-    },
+      onNavItemClick(path) {
+        this.$router.push({ path });
+      }
+    }
   };
 </script>
