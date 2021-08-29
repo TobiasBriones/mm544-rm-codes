@@ -23,7 +23,6 @@
       height="315"
       src="https://www.youtube.com/embed/3CH97_3xCI4"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
@@ -36,7 +35,6 @@
       height="315"
       src="https://www.youtube.com/embed/dFMtyRFPF1E"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
@@ -49,7 +47,6 @@
       height="315"
       src="https://www.youtube.com/embed/HnRs_E7Pujw"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
@@ -80,6 +77,7 @@
   iframe {
     height: 315px !important;
     margin-bottom: 32px;
+    border: 0;
   }
 
   p {

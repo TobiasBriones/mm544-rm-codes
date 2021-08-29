@@ -24,26 +24,6 @@
     <p>
       <vue-mathjax :formula="p2"></vue-mathjax>
     </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p3"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p4"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p5"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p6"></vue-mathjax>
-    </p>
   </div>
 </template>
 
@@ -84,15 +64,6 @@
               a $1$, por tanto en $wt(u,u+\\textbf{1})$ también tenemos la mitad
                de la coordenadas siendo $1$, por tanto $wt(u, u+\\textbf{1})=
                2(2^{m-2})=2^{m-1}$.
-        `,
-        p3: `
-
-        `,
-        p4: `
-
-        `,
-        p5: `
-
         `,
       };
     },

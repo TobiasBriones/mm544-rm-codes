@@ -28,31 +28,6 @@
     <p>
       <vue-mathjax :formula="p3"></vue-mathjax>
     </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p4"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p5"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p6"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p7"></vue-mathjax>
-    </p>
-
-    <p><strong></strong></p>
-    <p>
-      <vue-mathjax :formula="p9"></vue-mathjax>
-    </p>
   </div>
 </template>
 
@@ -81,18 +56,6 @@
           y además volver a duplicar dichas tuplas pero con el lado derecho sumándole
           $\\textbf{1}$. Y así recursivamente para definir las siguientes $n-tuplas$
            de los siguientes $\\mathscr{RM}(1,m)$.
-        `,
-        p4: `
-
-        `,
-        p5: `
-
-        `,
-        p6: `
-
-        `,
-        p7: `
-
         `,
       };
     },
