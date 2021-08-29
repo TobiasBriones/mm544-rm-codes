@@ -96,8 +96,9 @@
 
 <script>
   import Footer from './Footer.vue';
+  import { defineComponent } from 'vue';
 
-  export default {
+  export default defineComponent({
     name: 'Nav',
     components: {
       Footer
@@ -114,7 +115,7 @@
         this.menuVisible = false;
       }
     }
-  };
+  });
 </script>
 
 <style scoped>

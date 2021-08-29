@@ -21,11 +21,12 @@
 
 <script>
   import Nav from './components/Nav.vue';
+  import { defineComponent } from 'vue';
 
-  export default {
+  export default defineComponent({
     name: 'App',
     components: {
       Nav
-    },
-  };
+    }
+  });
 </script>

@@ -13,20 +13,17 @@
  * https://opensource.org/licenses/BSD-3-Clause.
  */
 
-import Vue from 'vue';
-import App from './App.vue';
-import VueMaterial from 'vue-material';
 import 'vue-material/dist/vue-material.min.css';
 import 'vue-material/dist/theme/default.css';
+import VueMaterial from 'vue-material';
 import router from './router';
+import App from './App.vue';
 import VueMathjax from 'vue-mathjax';
+import { createApp } from 'vue'
 
-Vue.config.productionTip = false;
+const app = createApp(App);
 
-Vue.use(VueMaterial);
-Vue.use(VueMathjax);
-
-new Vue({
-  router,
-  render: h => h(App),
-}).$mount('#app');
+app.use(router);
+app.use(VueMaterial);
+app.use(VueMathjax);
+app.mount('#app');
