@@ -1,6 +1,6 @@
 # Course Project at UNAH-MM544: Reed Muller Codes
 
-[![GitHub Repository](https://raw.githubusercontent.com/tobiasbriones/general-images/main/example-projects/badges/ep-gh-repo-badge.svg)](https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes)
+[![GitHub Repository](https://img.shields.io/static/v1?label=GITHUB&message=REPOSITORY&labelColor=555&color=0277bd&style=for-the-badge&logo=GITHUB)](https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes)
 
 [![Project GitHub License](https://img.shields.io/github/license/tobiasbriones/cp-unah-mm544-reed-muller-codes.svg?style=flat-square)](https://github.com/tobiasbriones/cp-unah-mm544-reed-muller-codes/blob/main/LICENSE)
 
