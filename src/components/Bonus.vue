@@ -19,7 +19,8 @@
 
     <p>
       El contenido bono consiste en los proyectos: <strong>MST: Minimum Spanning Tree</strong>,
-      <strong>Criptosistemas</strong> y <strong>Hill Cipher para Z26</strong>.
+      <strong>Criptosistemas</strong>, <strong>Hill Cipher para Z26</strong>
+      y <strong>Actividades de Cisco Packet Tracer</strong>.
     </p>
 
     <section>
@@ -77,6 +78,39 @@
       </p>
 
       <a href="https://github.com/tobiasbriones/ep-hill-cipher-mat26">EP: Hill Cipher Mat26 Repositorio de GitHub</a>
+    </section>
+
+    <section>
+      <h2>
+        Actividades de Cisco Packet Tracer
+      </h2>
+
+      <p>
+        En estos laboratorios documenté actividades interesantes de
+        ingeniería en sistemas que tenía para desarrollar en Cisco Packet
+        Tracer y también elaboré unos videos al respecto.
+      </p>
+
+      <div>
+        <iframe src="./actividades-de-cisco-pt.pdf"
+                title="Actividades de Cisco | Packet Tracer">
+        </iframe>
+      </div>
+
+      <h3>
+        Actividad PT Servidor Web con DNS
+      </h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BukR7CFZCU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h3>
+        PT Actividad DHCP en el router
+      </h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4qeMG21r-ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h3>
+        Actividad PT Integración de habilidades
+      </h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9dy6AuOHNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
   </div>
 </template>
